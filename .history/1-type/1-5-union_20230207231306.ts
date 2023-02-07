@@ -33,7 +33,7 @@
   // printLoginState(state: LoginState)
   // success -> 🎉 body
   // fail -> 😭 reason
-  function printLoginState(state: LoginState) {
+  function printLoginState2(state: LoginState) {
     if ('response' in state) {
       console.log(`🎉 ${state.response.body}`);
     } else {
